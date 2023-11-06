@@ -1,5 +1,19 @@
 ## Comprovació de que ho teniu ben instal·lat.
 
+Abans de començar. us recomano que tingueu activades les següents opcions.
+
+**Previ 1.** Activada l'opció de **mostrar** el **fitxers ocults**.
+
+![Alt text](../images/ctrl-00-1-conf-hidden-files.png)
+
+**Previ 2.** Activada l'opció de **mostrar** l'**extensió dels fitxers**.
+
+![Alt text](../images/ctrl-00-2-conf-show-extension-files.png)
+
+
+## Ara si que ja podem procedir amb la comprovació.
+
+
 **1.** Pressioneu <kbd>Windows</kbd> + <kbd>R</kbd>
 
 ![Alt text](../images/ctrl-01-pri-act-1r-control.png)
@@ -23,7 +37,6 @@ A continuació obrirem una **finestra de terminal**, per veure si tenim correcta
 Per fer-ho podeu desplegar el menú Terminal, que veureu desplegant l'opció dels **```tres punts```** ![boto-tres-punts](../images/code-boto-tres-punts.png), i de l'opció **```Terminal```**, escollir **```New Terminal```**. O bé pressionar la següent combinació de tecles <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ñ</kbd>.
 
 ![Alt text](../images/ctrl-05-abrir-terminal.png)
-
 
 Per obrir una **finestra de terminal**.
 
@@ -55,6 +68,80 @@ I tornem a obrir una **finestra de terminal**
 
 ![Alt text](../images/ctrl-10-obrir-terminal-gitbash.png)
 
-**Genial!** Si s'obre una **finestra de terminal** de **```bash```**, és que ja ho teniu tot funcionant correctament!
+Si s'obre una **finestra de terminal** de **```bash```**, és que ja ho teniu tot funcionant correctament!
 
-Ja ho teniu **TOT** i ben instal·lat, ara ja podeu tancar el **```Visual Studio Code```**. Per fer-ho cal pressionar <kbd>Alt</kbd> + <kbd>F4</kbd>.
+## Comprovació de configuració de ***nom d'usuari*** i ***correu*** de **```git```**.
+
+Ara cal comprovar que teniu ben configurat el programa de **```git```**, pel que fa referència al vostre usuari de [**```github.com```**](https://github.com/).
+
+Seguiré l'exemple pressuposant que el següent:
+
+|Clau|Valor|
+|----|----|
+|**usuari de github**|**```joanpardogine```**|
+|l'**adreça del compte de correu electrònic** del compte de [**```github.com```**](https://github.com/)|**```joanpardogine@ginebro.cat```**|
+
+Cadascú en el seu cas, cal que feu servir el vostre usuari i l'**adreça del compte de correu electrònic**
+
+### Comprovació **usuari de github**
+
+Per veure si tenim l'**usuari de github** configurat cal executar la comanda:
+
+```
+git config --global user.name
+```
+
+![Alt text](../images/ctrl-11-check-git-user-blank.png)
+
+Si NO us apareix res, significa que no està configurat.
+
+Per configurar-lo cal executar la comanda següent:
+
+```
+git config --global user.name <nomUsuari>
+```
+
+Per exemple en el meu cas:
+
+```
+git config --global user.name joanpardogine
+```
+
+![Alt text](../images/ctrl-12-congfig-git-user-joanpardogine.png)
+
+I per comprovar que s'ha configurat correctament tornem a executar la comanda:
+
+```
+git config --global user.name
+```
+
+I en aquest cas, si està configurar, ens mostrarà el nom que acabem de configurar. 
+
+### Comprovació **correu de github**
+
+Per veure si tenim el **correu de github** configurat cal executar la comanda:
+
+```
+git config --global user.email
+``` 
+
+![Alt text](../images/ctrl-13-check-git-email-blank.png)
+
+Si NO us apareix res, significa que no està configurat.
+
+Per configurar-lo cal executar la comanda següent:
+
+```
+git config --global user.email <correu de github>
+```
+
+Per exemple en el meu cas:
+
+```
+git config --global user.email joanpardogine@ginebro.cat
+```
+
+![Alt text](../images/ctrl-14-check-git-email.joanpardogine.png)
+
+
+Ara si que si heu arribat a aquest punt, ja ho teniu **TOT** i ben instal·lat, ara ja podeu tancar el **```Visual Studio Code```**. Per fer-ho cal pressionar <kbd>Alt</kbd> + <kbd>F4</kbd>.
