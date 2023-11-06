@@ -1,11 +1,50 @@
-# Explicació de git
+# A01U - Activitat 1 - Primera activitat amb ***```git```***
 
-[Git Tutorial](https://www.w3schools.com/git/default.asp?remote=github)
+## ***TRES*** pre-requisits:
 
-<details>
-<summary>Index</summary>
+***Requisit* 1.** Tenir instal·lat l'**```IDE```** **```Visual Studio Code```**. Un **```IDE```** és un **Entorn integrat de desenvolupament** (de les sigles en anglès: ***Integrated Development Environment***).
 
-1. [Instal·lar **```git```** a **```Windows```**](./README.md#installar-git-a-windows-1)
+> ### Per fer la instal·lació del **```Visual Studio Code```** podeu seguir els [Passos per instal·lar l'**IDE** **```Visual Studio Code```**](./manuals/instalar-vsc.md)
+
+***Requisit* 2.** Tenir instal·lat el **sistema de control de versions** **```git```**. Consisteix en una aplicació que **gestiona de canvis en arxius i directoris**.
+
+> ### Per fer la instal·lació del **sistema de control de versions** **```git```** podeu seguir les [Passos per instal·lar el **sistema de control de versions** **```git```**](./manuals/instalar-git.md)
+
+Aquí teniu un [Git Tutorial (w3schools.com)](https://www.w3schools.com/git/default.asp?remote=github)
+
+***Requisit* 3.** Tenir un compte de [**```github.com```**](https://github.com/), podeu seguir els passos de [**Getting started with your GitHub account**](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
+
+
+***Requisit* 4.** Tenir creat al vostre ordinador l'**estructura inicial**, cal que seguiu els passos de [Passos per crear **l'estructura inicial**](./manuals/crea-creacio-estructura.md) 
+
+> ### Abans de començar cal fer la [Comprovació de que ho teniu ben instal·lat](./manuals/comprovacio-tot-ben-installat.md)
+
+Un cop ja teniu els **dos programes instal·lats**, i el **compte creat** [**```github.com```**](https://github.com/) i **l'estructura inicial** creada, ja podeu començar aquesta activitat.
+
+## Objectiu:
+
+Crear un projecte amb el nom **```el-meu-primer-repositori```**, amb:
+* un **repositori local** i
+* un **repositori remot**,
+* que estiguin **vinculats**.
+
+Fent servir **```git```** com a **sistema de control de versions** i l'**IDE** **```Visual Studio Code```**.
+
+## **Pas 1.** Crear un **repositori local** al vostre ordinador.
+
+> ## NOTA: **Bona pràctica** 
+> 
+>  Com a **bona pràctica**, us recomano, crear sempre una carpeta pel ***repositori local***, amb el mateix nom que el vostre ***repositori remot***.
+
+Nom de la carpeta per crear el vostre **repositori local**: **```el-meu-primer-repositori```**.
+
+Dins de la carpeta 
+![Alt text](./images/a01u-crear-nova-carpeta.png)
+
+## **Pas 2.** Crear un **repositori remot** al vostre compte de [**```github.com```**](https://github.com/).
+
+<!-- <details>
+<summary>Desplega per veure l'Índex</summary>
 
 1. [Comanda **```git status```** per veure l'estat del repositori](./README.md#comanda-git-status-per-veure-lestat-del-repositori-1)
 
@@ -24,38 +63,43 @@
 1. [Com convidar a un col·laborador a un repositori a la vostre compta a github.com](./README.md#com-convidar-a-un-collaborador-a-un-repositori-a-la-vostre-compta-a-githubcom-1)
 
 1. [Inviting collaborators to a personal repository](./README.md#inviting-collaborators-to-a-personal-repository)
-</details>
+</details> -->
 
-## Instal·lar git a Windows
-
-* Descarregar el programa ```git``` des de la web [Git-2.39.1-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe)
-
-* Pàgina web oficial de [GitHub](https://github.com)
 
 **1.** Crear la carpeta contenidora del nostre projecte.
 
+El nom del projecte que seguirem durant aquesta activitat és **```el-meu-primer-repositori```**.
 
-Per tal de unificar la nostra explicació, crearem una carpeta que anomenarem **```<CognomAlumne>-primer-repositori```**, (on **```<CognomAlumne>```** és el **cognom de l'alumne**, sense el **nom**, per exemple en el meu cas seria **```pardo-primer-repositori```**) i serà  la que farem servir per guardar i centralitzar el projecte o repositori **```<CognomAlumne>-primer-repositori```**.
-En el meu cas, la  dins de la unitat **```D:```** del meu portatil. Com veieu des de la shell de linux per accedir a la unitat **```D:```** cal accedir amb **```/d/```**.
+Com a bona pràctica, us recomano que el **nom de la carpeta** contenidora del nostre **repositori local**, sigui el mateix nom que el nom del nostre **repositori remot**. 
+
+Per tant, crearem una carpeta que anomenarem **```el-meu-primer-repositori```**, i que serà  la que farem servir per guardar i centralitzar el projecte o repositori **```el-meu-primer-repositori```**.
+
+En el meu cas, la carpeta es troba a dins de la unitat **```D:```** del meu portatil.
 
 Per fer-ho executarem les següents comandes.
 ```sh
-~$ mkdir <CognomAlumne>-primer-repositori
-~$ cd <CognomAlumne>-primer-repositori
-~/<CognomAlumne>-primer-repositori $ pwd
-\d\<CognomAlumne>-primer-repositori
+~$ mkdir el-meu-primer-repositori
+~$ cd el-meu-primer-repositori
+~/el-meu-primer-repositori $ pwd
+\d\el-meu-primer-repositori
 ```
 
-# Comanda **```git status```** per veure l'estat del repositori
+Com veieu des de la shell de linux per accedir a la unitat **```D:```** cal accedir amb **```/d/```**.
+
+# Creació del repositori remote a la web de [github.com](https://github.com/)
+
+![Alt text](./images/01-new-repository.png)
+
+![Alt text](./images/02-create-new-repo.png)
 
 Existeix una comanda que ens mostra en quin estat es troba el nostre repositori.
 
 Un cop ja siguem dins de la carpeta que acabem de crear podem provar d'executar la comanda **``git status``** que ens mostrarà quin és l'estat del repositori.
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git status
+~/el-meu-primer-repositori $ git status
 fatal: not a git repository (or any of the parent directories): .git
-~/<CognomAlumne>-primer-repositori $
+~/el-meu-primer-repositori $
 ```
 
 Obtenim un error, que ens diu que no és un **repositori**. Això  és normal, ja que per defecte, cap carpeta és un **repositori**.
@@ -73,19 +117,19 @@ git status
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git init
-Initialised empty Git repository in /d/<CognomAlumne>-primer-repositori/.git/
-~/<CognomAlumne>-primer-repositori $ 
+~/el-meu-primer-repositori $ git init
+Initialised empty Git repository in /d/el-meu-primer-repositori/.git/
+~/el-meu-primer-repositori $ 
 ```
 
-Ens mostra el missatge (**```Initialised empty Git repository in /d/<CognomAlumne>-primer-repositori/.git/```**), és a dir, que s'ha inicialitzat com a **repositori buit** la ruta (**``/d/<CognomAlumne>-primer-repositori/.git/``**).`
+Ens mostra el missatge (**```Initialised empty Git repository in /d/el-meu-primer-repositori/.git/```**), és a dir, que s'ha inicialitzat com a **repositori buit** la ruta (**``/d/el-meu-primer-repositori/.git/``**).`
 
 > ## **NOTA IMPORTANT**
 > ### Tingueu present que si a un **repositori** que ja teniu creat, torneu a executar la comanda **```git init```**, eliminarà tota la informació dels canvis que ha registrat fins al moment i crearà, com ja s'ha comentat, un **repositori buit**.
 > <br>
 <br>
 
-Tanmateix, si mirem el contingut de la carpeta **```<CognomAlumne>-primer-repositori```** amb un **```ls -l```** o amb un **```dir```**, veiem que, aparentment no hi ha res creat.
+Tanmateix, si mirem el contingut de la carpeta **```el-meu-primer-repositori```** amb un **```ls -l```** o amb un **```dir```**, veiem que, aparentment no hi ha res creat.
 
 **Comanda**:
 
@@ -96,9 +140,9 @@ ls -l
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ ls -l
+~/el-meu-primer-repositori $ ls -l
 total 0
-~/<CognomAlumne>-primer-repositori $
+~/el-meu-primer-repositori $
 ```
 
 Però si executem la comanda perquè mostri els fitxers ocults **```ls -la```** o **```dir /a```**, llavors sí que veiem que hi ha una carpeta nova anomenada **```.git```**, el que passa és que és oculta.
@@ -112,12 +156,12 @@ ls -la
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ ls -a
+~/el-meu-primer-repositori $ ls -a
 total 12
 drwxrwxr-x 3 user user 4096 Sep 24 13:00 .
 drwxrwxrwx 7 user user 4096 Sep 24 13:00 ..
 drwxrwxr-x 7 user user 4096 Sep 24 13:00 .git
-~/<CognomAlumne>-primer-repositori $ 
+~/el-meu-primer-repositori $ 
 ```
 
 Aquesta carpeta **```.git```** és la que conté tota la informació de **```git```** sobre el projecte. Cada vegada que es facin canvis, ja sigui afegint fitxers, modificant el contingut dels fitxers, creant o esborrant subcarpetes ,etc aquests canvis s'aniran guardant en aquesta carpeta. Per tant, **és important** que no l'esborreu, ni li feu res, ja que és **imprescindible** per poder interactuar amb **```git```**.
@@ -133,8 +177,8 @@ cd .git
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ cd .git
-~/<CognomAlumne>-primer-repositori/.git$ ls -l
+~/el-meu-primer-repositori $ cd .git
+~/el-meu-primer-repositori/.git$ ls -l
 total 32
 drwxrwxr-x 2 user user 4096 Sep 24 13:00 branches
 -rw-rw-r-- 1 user user   92 Sep 24 13:00 config
@@ -144,7 +188,7 @@ drwxrwxr-x 2 user user 4096 Sep 24 13:00 hooks
 drwxrwxr-x 2 user user 4096 Sep 24 13:00 info
 drwxrwxr-x 4 user user 4096 Sep 24 13:00 objects
 drwxrwxr-x 4 user user 4096 Sep 24 13:00 refs
-~/<CognomAlumne>-primer-repositori/.git$ 
+~/el-meu-primer-repositori/.git$ 
 ```
 
 Però, si ara tornem enrere, amb **```cd ..```**, és a dir, a la carpeta **```<CognomAlmune>-primer-repositori```** i executem la comanda **```git -status```**, la resposta rebuda és una altra.
@@ -158,15 +202,15 @@ git status
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori/.git$ cd ..
-~/<CognomAlumne>-primer-repositori $ git status
+~/el-meu-primer-repositori/.git$ cd ..
+~/el-meu-primer-repositori $ git status
 On branch main
 
 No commits yet
 
 nothing to commit (create/copy files and use "git add" to track)
 
-~/<CognomAlumne>-primer-repositori $
+~/el-meu-primer-repositori $
 ```
 
 Ens mostra els següents missatges que volen dir:
@@ -210,7 +254,7 @@ Copieu el següent codi:
 I guardeu el fitxer a la vostra ruta:
 
 ```sh
-<CognomAlumne>-primer-repositori
+el-meu-primer-repositori
 ```
 
 Un cop que hem creat, modificat i guardat aquest primer fitxer, anem a veure què és el que ens diu **```git```**.
@@ -224,7 +268,7 @@ git status
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git status
+~/el-meu-primer-repositori $ git status
 On branch main
 
 No commits yet
@@ -234,7 +278,7 @@ Untracked files:
         index.html
 
 nothing added to commit but untracked files present (use "git add" to track)
-~/<CognomAlumne>-primer-repositori $ 
+~/el-meu-primer-repositori $ 
 ```
 
 Ara apareix una secció **```Untracked files```**, és a dir, una apartat a on ens mostra aquells fitxers, que no estan **marcats** per controlar els seus els canvis, és a dir que ***NO* tenen de traça**.
@@ -277,7 +321,7 @@ git add index.html
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git add index.html
+~/el-meu-primer-repositori $ git add index.html
 ```
 
 Un cop que hem afegit el fitxer **```index.html```**, anem a veure quin és l'estat del nostre **repositori** amb **```git status```**.
@@ -291,7 +335,7 @@ git status
 **Exemple**:
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git status
+~/el-meu-primer-repositori $ git status
 On branch main
 
 No commits yet
@@ -300,7 +344,7 @@ Changes to be committed:
   (use "git rm --cached <file> ..." to unstage)
         new file:   index.html
 
-~/<CognomAlumne>-primer-repositori $ 
+~/el-meu-primer-repositori $ 
 ```
 
 Un cop afegit el fitxer **```index.html```**, si tornem a executar la comanda **```git status```**, ara apareix un nou missatge **```Changes to be committed```** és a dir, canvis per ser controlats. I el fitxer **```index.html```** ja apareix com a fitxer nou i de color verd.
@@ -318,12 +362,12 @@ Per fer-ho, cal fer servir, la comanda **```git commit```** amb el paràmetre **
 Això  ens serà  molt útil per més endavant, per quan veiem el log dels **```commit```**'s, puguem reconèixer a cadascun d'ells i saber que és el que vam fer just en aquell moment.
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git commit -m "Creat el fitxer index.html"
+~/el-meu-primer-repositori $ git commit -m "Creat el fitxer index.html"
 [main (root-commit) 74859bc] Creat el fitxer index.html
 1 file changed, 10 insertions(+)
 create mode 100644 index.html
 
-~/<CognomAlumne>-primer-repositori $ 
+~/el-meu-primer-repositori $ 
 ```
 
 <hr>
@@ -346,20 +390,20 @@ create mode 100644 index.html
 Ara afegirem dos fitxers més: **```main.js```** i **```styles.css```**
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ touch main.js
-~/<CognomAlumne>-primer-repositori $ touch styles.css
-~/<CognomAlumne>-primer-repositori $ ls -l
+~/el-meu-primer-repositori $ touch main.js
+~/el-meu-primer-repositori $ touch styles.css
+~/el-meu-primer-repositori $ ls -l
 -rw-rw-r-- 1 user user 130 Sep 24 13:00 index.html
 -rw-rw-r-- 1 user user   0 Sep 24 13:00 main.js
 -rw-rw-r-- 1 user user   0 Sep 24 13:00 styles.css
 
-~/<CognomAlumne>-primer-repositori $ 
+~/el-meu-primer-repositori $ 
 ```
 
 I de moment els deixem buits i anem a veure què ha passat al git.
 
 ```sh
-~/<CognomAlumne>-primer-repositori $ git status
+~/el-meu-primer-repositori $ git status
 On branch main
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -368,7 +412,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-~/<CognomAlumne>-primer-repositori $
+~/el-meu-primer-repositori $
 ```
 
 Abans de seguir cal confirmar que tenim la nostra instal·lació de git al nostre ordinador ben configurat.
