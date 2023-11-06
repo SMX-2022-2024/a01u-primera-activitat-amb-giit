@@ -17,7 +17,7 @@ Aquí teniu un [Git Tutorial (w3schools.com)](https://www.w3schools.com/git/defa
 
 ***Requisit* 4.** Tenir creat al vostre ordinador l'**estructura inicial**, cal que seguiu els passos de [Passos per crear **l'estructura inicial**](./manuals/crea-creacio-estructura.md) 
 
-> ### Abans de començar cal fer la [Comprovació de que ho teniu ben instal·lat](./manuals/comprovacio-tot-ben-installat.md)
+> ### Abans de començar cal fer la [Comprovació de que ho teniu ben instal·lat](./manuals/ctrl-comprovacio-tot-ben-installat.md)
 
 Un cop ja teniu els **dos programes instal·lats**, el **compte creat** [**```github.com```**](https://github.com/) i **l'estructura inicial** creada, ja podeu començar aquesta activitat.
 
