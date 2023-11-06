@@ -120,3 +120,14 @@ Un cop oberta la **finestra de terminal** podeu enganxar totes les comandes, col
 ![Alt text](./images/a01u-14-comandes-copiades-terminal-vsc.png)
 
 Si a continuació pressioneu la tecla <kbd>Intro</kbd>
+
+La primera vegada us apareixerà aquesta finestra, per validar l'usuari i la contrasenya.
+
+![Alt text](./images/a01u-15-validacio-usuari-github.png)
+
+![Alt text](./images/a01u-16-validacio-usuari-01.png)
+
+![Alt text](./images/a01u-17-validacio-exitosa.png)
+
+![Alt text](./images/a01u-18-git-push-fet.png)
+
