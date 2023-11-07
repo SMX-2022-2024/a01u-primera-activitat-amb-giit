@@ -394,17 +394,19 @@ $ cd /c/smx2/repos
 /c/smx2/repos/<nom-del-projecte> $ git push -u origin main
 ```
 
+### Comanda veure l'estat de **```git```**, des de la ***finestra de terminal***
+
+```
+git status
+```
+
 ### Comanda per afegir el fitxer ***```README.md```*** un cop modificat, des de la ***finestra de terminal***
 
 ```
 git add README.md
 ```
 
-### Comanda veure l'estat de **```git```**, des de la ***finestra de terminal***
 
-```
-git status
-```
 
 ### Comanda per crear un punt de restauració, des de la ***finestra de terminal***
 
