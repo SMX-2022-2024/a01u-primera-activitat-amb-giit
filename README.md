@@ -365,9 +365,14 @@ Com abans, si tornem al nostre **repositori remot** i pressionem per actualitzar
 
 ## Resum de comandes
 
-Comandes per crear el **repositori local**
+A les comandes mostrades a continuació cal modificar els següents textos:
 
-Des de la **finestra de terminal**
+|text incorrecte|text correcte|
+|----|----|
+|**```<nom-del-projecte>```**|**```nom del teu projecte```**|
+|**```<usuariGithub>```**|**```nom del teu usuari de github```**|
+
+### Comandes per crear el ***repositori local*** des de la ***finestra de terminal***
 
 ```
 $ cd /c/smx2/repos
@@ -377,7 +382,7 @@ $ cd /c/smx2/repos
 /c/smx2/repos/<nom-del-projecte> $ cd <nom-del-projecte>
 ```
 
-Comandes per vincular el **repositori local** amb el **repositori remot**
+### Comandes per vincular el **repositori local** amb el **repositori remot** des de la ***finestra de terminal***
 
 ```
 /c/smx2/repos/<nom-del-projecte> $ echo "# <nom-del-projecte>" >> README.md
@@ -387,5 +392,29 @@ Comandes per vincular el **repositori local** amb el **repositori remot**
 /c/smx2/repos/<nom-del-projecte> $ git branch -M main
 /c/smx2/repos/<nom-del-projecte> $ git remote add origin https://github.com/<usuariGithub>/<nom-del-projecte>.git
 /c/smx2/repos/<nom-del-projecte> $ git push -u origin main
+```
+
+### Comanda per afegir el fitxer ***```README.md```*** un cop modificat, des de la ***finestra de terminal***
+
+```
+git add README.md
+```
+
+### Comanda veure l'estat de **```git```**, des de la ***finestra de terminal***
+
+```
+git status
+```
+
+### Comanda per crear un punt de restauració, des de la ***finestra de terminal***
+
+```
+git commit -m "first commit"
+```
+
+### Comanda ***enviar*** el **repositori local** amb el **repositori remot**, des de la ***finestra de terminal***
+
+```
+git push -u origin main
 ```
 
