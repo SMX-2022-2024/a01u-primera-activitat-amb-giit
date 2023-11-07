@@ -2,23 +2,29 @@
 
 <details><summary>Pitja per veure l'índex</summary>
 
-## [**Pas 1.** Crear un **repositori local** al vostre ordinador.](#pas-1-crear-un-repositori-local-al-vostre-ordinador)
+> <hr>
+> 
+> * [**Pas 1.** Crear un **repositori local** al vostre ordinador.](#pas-1-crear-un-repositori-local-al-vostre-ordinador) 
+> 
+> * [**Pas 2.** Crear un **repositori remot** al vostre compte de **```github.com```**](#pas-2-crear-un-repositori-remot-al-vostre-compte-de-githubcom)
+> 
+> * [**Pas 3.** Vincular el vostre **repositori local** amb el vostre **repositori remot** creat al compte de **```github.com```**.](#pas-3-vincular-el-vostre-repositori-local-amb-el-vostre-repositori-remot-creat-al-compte-de-githubcom)
+> 
+> * [**Pas 4.** Modificar el fitxer **```README.md```**](#pas-4-modificar-el-fitxer-readmemd)
+> 
+> * [**Pas 5.** Guardar els canvis fets en els fitxers del nostre repositori local](#pas-5-guardar-els-canvis-fets-en-els-fitxers-del-nostre-repositori-local)
+> 
+> * [**Pas 6.** Afegim els fitxers a la llista de fitxers que cal que controli **```git```**.](#pas-6-afegim-els-fitxers-a-la-llista-de-fitxers-que-cal-que-controli-git)
+> 
+> * [**Pas 7.** Crear un nou punt de restauració](#pas-7-crear-un-nou-punt-de-restauració)
+> 
+> * [**Pas 8.** Enviar l'estat del nostre **repositori local** cap al nostre **repositori remot**. ](#pas-8-enviar-lestat-del-nostre-repositori-local-cap-al-nostre-repositori-remot)
+> 
+> * [**Pas 9.** Actualitzar la pàgina del nostre **repositori remot**.](#pas-9-actualitzar-la-pàgina-del-nostre-repositori-remot)
+> 
+> <br>
+> <hr>
 
-## [**Pas 2.** Crear un **repositori remot** al vostre compte de **```github.com```**](#pas-2-crear-un-repositori-remot-al-vostre-compte-de-githubcom)
-
-## [**Pas 3.** Vincular el vostre **repositori local** amb el vostre **repositori remot** creat al compte de **```github.com```**.](#pas-3-vincular-el-vostre-repositori-local-amb-el-vostre-repositori-remot-creat-al-compte-de-githubcom)
-
-## [**Pas 4.** Modificar el fitxer **```README.md```**](#pas-4-modificar-el-fitxer-readmemd)
-
-## [**Pas 5.** Guardar els canvis fets en els fitxers del nostre repositori local](#pas-5-guardar-els-canvis-fets-en-els-fitxers-del-nostre-repositori-local)
-
-## [**Pas 6.** Afegim els fitxers a la llista de fitxers que cal que controli **```git```**.](#pas-6-afegim-els-fitxers-a-la-llista-de-fitxers-que-cal-que-controli-git)
-
-## [**Pas 7.** Crear un nou punt de restauració](#pas-7-crear-un-nou-punt-de-restauració)
-
-## [**Pas 8.** Enviar l'estat del nostre **repositori local** cap al nostre **repositori remot**. ](#pas-8-enviar-lestat-del-nostre-repositori-local-cap-al-nostre-repositori-remot)
-
-## [**Pas 9.** Actualitzar la pàgina del nostre **repositori remot**.](#pas-9-actualitzar-la-pàgina-del-nostre-repositori-remot)
 </details>
 
 ## ***QUATRE*** pre-requisits:
@@ -334,20 +340,25 @@ Com abans, si tornem al nostre **repositori remot** i pressionem per actualitzar
 
 ## Llistat de tots el passos a fer
 
-## [**Pas 1.** Crear un **repositori local** al vostre ordinador.](#pas-1-crear-un-repositori-local-al-vostre-ordinador)
-
-## [**Pas 2.** Crear un **repositori remot** al vostre compte de **```github.com```**](#pas-2-crear-un-repositori-remot-al-vostre-compte-de-githubcom)
-
-## [**Pas 3.** Vincular el vostre **repositori local** amb el vostre **repositori remot** creat al compte de **```github.com```**.](#pas-3-vincular-el-vostre-repositori-local-amb-el-vostre-repositori-remot-creat-al-compte-de-githubcom)
-
-## [**Pas 4.** Modificar el fitxer **```README.md```**](#pas-4-modificar-el-fitxer-readmemd)
-
-## [**Pas 5.** Guardar els canvis fets en els fitxers del nostre repositori local](#pas-5-guardar-els-canvis-fets-en-els-fitxers-del-nostre-repositori-local)
-
-## [**Pas 6.** Afegim els fitxers a la llista de fitxers que cal que controli **```git```**.](#pas-6-afegim-els-fitxers-a-la-llista-de-fitxers-que-cal-que-controli-git)
-
-## [**Pas 7.** Crear un nou punt de restauració](#pas-7-crear-un-nou-punt-de-restauració)
-
-## [**Pas 8.** Enviar l'estat del nostre **repositori local** cap al nostre **repositori remot**. ](#pas-8-enviar-lestat-del-nostre-repositori-local-cap-al-nostre-repositori-remot)
-
-## [**Pas 9.** Actualitzar la pàgina del nostre **repositori remot**.](#pas-9-actualitzar-la-pàgina-del-nostre-repositori-remot)
+> <hr>
+> 
+> * [**Pas 1.** Crear un **repositori local** al vostre ordinador.](#pas-1-crear-un-repositori-local-al-vostre-ordinador) 
+> 
+> * [**Pas 2.** Crear un **repositori remot** al vostre compte de **```github.com```**](#pas-2-crear-un-repositori-remot-al-vostre-compte-de-githubcom)
+> 
+> * [**Pas 3.** Vincular el vostre **repositori local** amb el vostre **repositori remot** creat al compte de **```github.com```**.](#pas-3-vincular-el-vostre-repositori-local-amb-el-vostre-repositori-remot-creat-al-compte-de-githubcom)
+> 
+> * [**Pas 4.** Modificar el fitxer **```README.md```**](#pas-4-modificar-el-fitxer-readmemd)
+> 
+> * [**Pas 5.** Guardar els canvis fets en els fitxers del nostre repositori local](#pas-5-guardar-els-canvis-fets-en-els-fitxers-del-nostre-repositori-local)
+> 
+> * [**Pas 6.** Afegim els fitxers a la llista de fitxers que cal que controli **```git```**.](#pas-6-afegim-els-fitxers-a-la-llista-de-fitxers-que-cal-que-controli-git)
+> 
+> * [**Pas 7.** Crear un nou punt de restauració](#pas-7-crear-un-nou-punt-de-restauració)
+> 
+> * [**Pas 8.** Enviar l'estat del nostre **repositori local** cap al nostre **repositori remot**. ](#pas-8-enviar-lestat-del-nostre-repositori-local-cap-al-nostre-repositori-remot)
+> 
+> * [**Pas 9.** Actualitzar la pàgina del nostre **repositori remot**.](#pas-9-actualitzar-la-pàgina-del-nostre-repositori-remot)
+> 
+> <br>
+> <hr>
