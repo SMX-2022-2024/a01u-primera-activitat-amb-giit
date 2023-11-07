@@ -93,7 +93,7 @@ desplegant el símbol **```+```** ![sdad](./images/github-boto-+-afegir.png) i e
 
 A la finestra **Create a new repository**, en el camp **```Repository name```** escriurem el nom del repositori que volem crear, en el nostre cas, i seguint les bones pràctiques comentades, serà el nom del projecte **```el-meu-primer-repositori```**.
 
-![Alt text](./images/a01u-08-nom-repositori.png)
+![Alt text](./images/a01u-08-nom-repositori-2.png)
 
 A continuació marquem l'opció **```Private```**. 
 > ## NO cal marcar l'opció **```Add a README.md file```**.
