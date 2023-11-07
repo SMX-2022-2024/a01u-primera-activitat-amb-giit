@@ -121,13 +121,212 @@ Un cop oberta la **finestra de terminal** podeu enganxar totes les comandes, col
 
 Si a continuació pressioneu la tecla <kbd>Intro</kbd>
 
-La primera vegada us apareixerà aquesta finestra, per validar l'usuari i la contrasenya.
+<details><summary>Pitja aquí si t'apareix la finestra Connect to GitHub</summary>
 
-![Alt text](./images/a01u-15-validacio-usuari-github.png)
+> <hr>
+> La primera vegada us apareixerà aquesta finestra, per validar l'usuari i la contrasenya.
+> 
+> ![Alt text](./images/a01u-15-validacio-usuari-github.png)
+> 
+> Pressioneu el botó **```Sign in with your browser```**, repeteixo que us apareixerà només si és la primera vegada que connecteu **```Visual Studio Code```** a [**```github.com```**](https://github.com/).
+> 
+> ![Alt text](./images/a01u-16-validacio-usuari-01.png)
+> 
+> pressionar el botó **```Authorize git-ecosystem```**, per autoritzar la connexió.
+> 
+> ![Alt text](./images/a01u-17-validacio-exitosa.png)
+> <br>
+> <hr>
+</details>
+<br>
 
-![Alt text](./images/a01u-16-validacio-usuari-01.png)
-
-![Alt text](./images/a01u-17-validacio-exitosa.png)
+I si apareix la següent pantalla:
 
 ![Alt text](./images/a01u-18-git-push-fet.png)
 
+I si tornem al nostre **repositori remot** i pressionem per actualitzar la pàgina, aquesta s'actualitza i ens mostra els canvis que hem pujat amb el **```git push```**.
+
+![Alt text](./images/a01u-19-repo-updated.png)
+
+
+## **Pas 4.** Modificar el fitxer **```README.md```**
+
+Per modificar el fitxer **```README.md```** cal obrir-lo amb el **```Visual Studio Code```**.
+
+Si des del menú lateral de l'esquerra pitgem dues vegades sobre qualsevol fitxer, aquest s'obre automàticament.
+
+I ja podem començar a treballar el contingut del fitxer.
+
+![Alt text](./images/a01u-20-un-sol-clic-readme.png)
+
+En aquest exemple crearé una llista amb en nom del projecte  **```el-meu-primer-repositori```** i el nom de l'autor del projecte, és a dir, **Joan Pardo**.
+
+Per fer-ho, primer us ensenyo com crear una taula:
+
+```
+|clau|valor|
+```
+
+Aquesta primera línia serà el contingut de les capçaleres de la taula.
+
+```
+|---|---|
+```
+
+Aquesta segona línia és per indicar que es tracta d'una taula.
+
+I a continuació, i separat pel caràcter **```|```** cal escriure el contingut de cada fila.
+
+```
+|Titol del projecte|**```el-meu-primer-repositori```**|
+|Autor|**Joan Pardo**|
+```
+
+I si ara ho ajuntem tot quedarà de la següent manera:
+
+```
+|clau|valor|
+|---|---|
+|Titol del projecte|**```el-meu-primer-repositori```**|
+|Autor|**Joan Pardo**|
+```
+
+I en format **```markdown```** es veurà
+
+|clau|valor|
+|---|---|
+|Titol del projecte|**```el-meu-primer-repositori```**|
+|Autor|**Joan Pardo**|
+
+Ara procedirem a copiar aquest text al fitxer **```README.md```** i desprès pujar-ho al nostre **repositori remot** per què es vegi a la web del nostre **```github.com```**.
+
+**1.** Escrivim el codi
+
+![Alt text](./images/a01u-21-escriure-codi-01.png)
+
+El fitxer **```README.md```** no està guardat, i això ho podem veure per la **bola blanca** que surt al costat del nom del fitxer.
+
+![Alt text](./images/code-icona-no-guardat.png)
+
+## **Pas 5.** Guardar els canvis fets en els fitxers del nostre repositori local
+
+**1.** Guardem els canvis fets en el fitxer
+
+Per guardar el fitxer poder pressionar <kbd>CTRL</kbd> + <kbd>S</kbd>
+
+![Alt text](./images/a01u-22-fitxer-guardat.png)
+
+![Alt text](./images/code-icona-guardat.png)
+
+Ara es pot veure per la **bola blanca** ha desaparegut i en el seu lloc apareix una **creu blanca**. Que ens indica que si la pitgem, podrem tancar el fitxer, ja que els canvis ja estan guardats.
+
+## **Pas 6.** Afegim els fitxers a la llista de fitxers que cal que controli **```git```**.
+
+Abans d'indicar quins fitxers volem que controli **```git```**, anem a veure en quin estat es troba el control de **```git```**.
+
+Per això farem servir la comanda **```git status```**.
+
+* **6.1.** Control de l'estat de **```git```** amb **```git status```** 
+
+Per obrir la **finestra de terminal** pressionarem la següent combinació de tecles:
+
+<kbd>CTRL</kbd> + <kbd>Shift</kbd> + <kbd>ñ</kbd> 
+
+![Alt text](./images/a01u-23-tornem-a-obrir-finestra-terminal.png)
+
+Ara procedirem a netejar la **finestra de terminal** fent servir la comanda **```clear```**
+
+![Alt text](./images/a01u-24-neteja-finestra-terminal.png)
+
+ i a continuació consultem quin és l'estat de git amb la comanda **```git status```**.
+
+![Alt text](./images/a01u-25-git-status.png)
+
+Veiem que apareix en **vermell** i amb la paraula **modified** tots aquells fitxers que estaven a la llista de fitxers que cal que controli **```git```** i que han estat modificats.
+
+I en aquest cas, es tracta del fitxer **```README.md```**.
+
+* **6.2.** Afegir un fitxer a la llista de fitxers que cal que controli **```git```** 
+
+Per afegir el fitxer **```README.md```** a la llista de fitxers que cal que controli **```git```**, cal fer-ho amb la comanda **```git add <nomDelFitxer>```**.
+
+En el nostre cas **```git add README.md```**
+
+![Alt text](./images/a01u-26-git-add-readme-md.png)
+
+Tornem a veure l'estat de **```git```** amb **```git status```**
+
+![Alt text](./images/a01u-27-git-status.png)
+
+Ara veiem que apareix en **verd** i amb la paraula **modified** tots aquells fitxers que ja estan a la llista de fitxers que cal que controli **```git```** i que han estat modificats.
+
+## **Pas 7.** Crear un nou punt de restauració
+
+Per crear un nou punt de restauració amb tots els fitxer que estan de **color verd** a la llista de fitxers que cal que controli **```git```**, cal fer servir la comanda **```git commit -m "```*```<missatge que informi dels canvis fets en els fitxers afegits al commit>```***```"```
+
+![Alt text](./images/a01u-28-git-commit.png)
+
+En aquest cas:
+
+ ```
+ git commit -m "En el fitxer README.md hem afegit una taula, amb format markdown, amb el titol i l'autor del projecte!"
+ ```
+
+![Alt text](./images/a01u-29-git-commit-ok.png)
+
+Si tot ha anat bé, no ens apareixerà cap error. Sí apareix algun error cal llegir-lo bé i aplicar el que ens indiqui.
+
+**7.1.** Control de l'estat de **```git```** amb **```git status```** 
+
+Tornem a veure quin és l'estat de git amb la comanda **```git status```**.
+
+![Alt text](./images/a01u-30-git-staus.png)
+
+Veiem que ens indica "**```nothing to commit, working tree clean```**", és a dir que en el nostre **repositori local** no hi ha cap canvi pendent de controlar, que TOTS els canvis estan "*guardats*".
+
+## **Pas 8.** Enviar l'estat del nostre **repositori local** cap al nostre **repositori remot**. 
+
+Per poder enviar aquest nou estat del nostre **repositori local** cap al nostre **repositori remot** cal fer servir la comanda **```git push -u origin main```**.
+
+![Alt text](./images/a01u-31-git-push.png)
+
+Si tot ha anat bé, no ens apareixerà cap missatge d'error ni en groc ni en vermell. Si que apareixen molts missatges, pero mentre aquests siguin en blanc, no cal patir, ja que son informatius.
+
+Podeu seguir aquest criteri:
+
+* missatge de **color blanc** és un **missatge d'informació** (***info***)
+
+* missatge de **color groc** és un **missatge d'advertència** (***warning***)
+
+* missatge de **color vermell** és un **missatge d'error** (***error***)
+
+## **Pas 9.** Actualitzar la pàgina del nostre **repositori remot**. 
+
+Com abans, si tornem al nostre **repositori remot** i pressionem per actualitzar la pàgina, aquesta s'actualitza i ens mostra els canvis que hem pujat amb el **```git push```**.
+
+![Alt text](./images/a01u-32-refres-github.png)
+
+## FELICITATS:! Ja ho teniu tot ben configurat, ben connectat i tot funcionant!
+
+## Ara ja només cal que modifique el fitxer **```README.md```** amb tot allo que se us demana a l'enunciat de les activitats!
+
+
+## Llistat de tots el passos a fer
+
+## [**Pas 1.** Crear un **repositori local** al vostre ordinador.](#pas-1-crear-un-repositori-local-al-vostre-ordinador)
+
+## [**Pas 2.** Crear un **repositori remot** al vostre compte de **```github.com```**](#pas-2-crear-un-repositori-remot-al-vostre-compte-de-githubcom)
+
+## [**Pas 3.** Vincular el vostre **repositori local** amb el vostre **repositori remot** creat al compte de **```github.com```**.](#pas-3-vincular-el-vostre-repositori-local-amb-el-vostre-repositori-remot-creat-al-compte-de-githubcom)
+
+## [**Pas 4.** Modificar el fitxer **```README.md```**](#pas-4-modificar-el-fitxer-readmemd)
+
+## [**Pas 5.** Guardar els canvis fets en els fitxers del nostre repositori local](#pas-5-guardar-els-canvis-fets-en-els-fitxers-del-nostre-repositori-local)
+
+## [**Pas 6.** Afegim els fitxers a la llista de fitxers que cal que controli **```git```**.](#pas-6-afegim-els-fitxers-a-la-llista-de-fitxers-que-cal-que-controli-git)
+
+## [**Pas 7.** Crear un nou punt de restauració](#pas-7-crear-un-nou-punt-de-restauració)
+
+## [**Pas 8.** Enviar l'estat del nostre **repositori local** cap al nostre **repositori remot**. ](#pas-8-enviar-lestat-del-nostre-repositori-local-cap-al-nostre-repositori-remot)
+
+## [**Pas 9.** Actualitzar la pàgina del nostre **repositori remot**.](#pas-9-actualitzar-la-pàgina-del-nostre-repositori-remot)
