@@ -337,7 +337,6 @@ Com abans, si tornem al nostre **repositori remot** i pressionem per actualitzar
 
 ## Ara ja només cal que modifique el fitxer **```README.md```** amb tot allo que se us demana a l'enunciat de les activitats!
 
-
 ## Llistat de tots el passos a fer
 
 > <hr>
@@ -362,3 +361,31 @@ Com abans, si tornem al nostre **repositori remot** i pressionem per actualitzar
 > 
 > <br>
 > <hr>
+
+
+## Resum de comandes
+
+Comandes per crear el **repositori local**
+
+Des de la **finestra de terminal**
+
+```
+$ cd /c/smx2/repos
+
+/c/smx2/repos $ mkdir <nom-del-projecte>
+
+/c/smx2/repos/<nom-del-projecte> $ cd <nom-del-projecte>
+```
+
+Comandes per vincular el **repositori local** amb el **repositori remot**
+
+```
+/c/smx2/repos/<nom-del-projecte> $ echo "# <nom-del-projecte>" >> README.md
+/c/smx2/repos/<nom-del-projecte> $ git init
+/c/smx2/repos/<nom-del-projecte> $ git add README.md
+/c/smx2/repos/<nom-del-projecte> $ git commit -m "first commit"
+/c/smx2/repos/<nom-del-projecte> $ git branch -M main
+/c/smx2/repos/<nom-del-projecte> $ git remote add origin https://github.com/<usuariGithub>/<nom-del-projecte>.git
+/c/smx2/repos/<nom-del-projecte> $ git push -u origin main
+```
+
