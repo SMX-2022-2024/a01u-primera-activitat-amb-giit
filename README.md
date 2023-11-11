@@ -1,4 +1,6 @@
-# A01U - Activitat 1 - Primera activitat amb ***```git```***
+# Primera activitat amb ***```git```***
+
+> ## MP07 UF01 A01U - Activitat 1
 
 <details><summary>Pitja per veure l'índex</summary>
 
@@ -332,6 +334,9 @@ Podeu seguir aquest criteri:
 Com abans, si tornem al nostre **repositori remot** i pressionem per actualitzar la pàgina, aquesta s'actualitza i ens mostra els canvis que hem pujat amb el **```git push```**.
 
 ![Alt text](./images/a01u-32-refres-github.png)
+
+## **Pas 10.** Actualitzar la pàgina del nostre **repositori remot**. 
+
 
 ## FELICITATS:! Ja ho teniu tot ben configurat, ben connectat i tot funcionant!
 
