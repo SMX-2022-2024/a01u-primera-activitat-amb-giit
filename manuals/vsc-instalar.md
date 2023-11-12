@@ -1,9 +1,9 @@
-# Passos per instal·lar l'**IDE** **```Visual Studio Code```**
+# Passos per instal·lar l'**IDE** ***```Visual Studio Code```***
 
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 > ## NOTA: 
-> ### Si ja teniu l'**IDE** **```Visual Studio Code```** instal·lat i *NO heu seguit els passos correctament*, us **recomano encaridament**, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
+> ### Si ja teniu l'**IDE** ***```Visual Studio Code```*** instal·lat i <ins>*NO heu seguit els passos correctament*</ins>, us <span style="font-size: 20px; color: red;">**recomano encaridament**</span>, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
 > ## 
 
 ## *Pas 1*: Descàrrega del programa a instal·lar.
