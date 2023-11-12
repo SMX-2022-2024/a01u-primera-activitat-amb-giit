@@ -34,7 +34,7 @@ Desmarqueu el ***check box*** de l'opció **```Show welcome page on startup```**
 
 A continuació obrirem una **finestra de terminal**, per veure si tenim correctament instal·lat **```git```**.
 
-Per fer-ho podeu desplegar el menú Terminal, que veureu desplegant l'opció dels **```tres punts```** ![boto-tres-punts](../images/code-boto-tres-punts.png), i de l'opció **```Terminal```**, escollir **```New Terminal```**. O bé pressionar la següent combinació de tecles <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ñ</kbd>.
+Per fer-ho podeu desplegar el menú Terminal, que veureu desplegant l'opció dels **```tres punts```** ![boto-tres-punts](https://github.com/SMX-2022-2024/.github/blob/main/profile//images/code-boto-tres-punts.png), i de l'opció **```Terminal```**, escollir **```New Terminal```**. O bé pressionar la següent combinació de tecles <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>ñ</kbd>.
 
 ![Alt text](../images/ctrl-05-abrir-terminal.png)
 
@@ -46,13 +46,13 @@ Com es pot veure, la primera vegada ens obrirà una **finestra de terminal** de 
 
 Per fer que cada vegada ens obri una **finestra de terminal** de git bash, cal que modifiquem la configuració del **```Visual Studio Code```**. 
 
-Desplegarem el simbol de <kbd>+</kbd> que es veu al costat de la paraula **```powershell```**, ![Alt text](../images/code-boto-+-terminal.png).
+Desplegarem el simbol de <kbd>+</kbd> que es veu al costat de la paraula **```powershell```**, ![Alt text](https://github.com/SMX-2022-2024/.github/blob/main/profile//images/code-boto-+-terminal.png).
 
 I del desplegable que apareixerà seleccionarem la opció **```Select Default Profile```**, per poder seleccionar quin volem que sigui el perfil per defecte que s'obri.
 
 ![Alt text](../images/ctrl-07-canviar-obrir-terminal-defecte.png)
 
-I seleccionem l'opció ![icona](../images/code-icona-git-bash.png) **```Git Bash```**.
+I seleccionem l'opció ![icona](https://github.com/SMX-2022-2024/.github/blob/main/profile//images/code-icona-git-bash.png) **```Git Bash```**.
 
 ![Alt text](../images/ctrl-08-terminal-defecte-gitbash.png)
 
@@ -60,7 +60,7 @@ Sembla que no ha fet res.
 
 ![Alt text](../images/ctrl-09-terminal-defecte-gitbash.png)
 
-Pero si tanquem la **finestra de terminal** de **```PS```** (**```Power Shell```**) amb el botó ![boto-tanca](../images/code-icona-tanca-terminal-ps.png) per tancar la **finestra de terminal** de **```PS```**.
+Pero si tanquem la **finestra de terminal** de **```PS```** (**```Power Shell```**) amb el botó ![boto-tanca](https://github.com/SMX-2022-2024/.github/blob/main/profile//images/code-icona-tanca-terminal-ps.png) per tancar la **finestra de terminal** de **```PS```**.
 
 I tornem a obrir una **finestra de terminal**
 ![Alt text](../images/ctrl-05-abrir-terminal.png)
