@@ -5,9 +5,9 @@
 
 # 2004 The year of [Blue](#)
 
-# 2004 The year of [Green](#)
+# 2004 The year of [Green](##)
 
-# 2004 The year of [Red](#)
+# 2004 The year of [Red](###)
 
 
 You can use the diff language tag to generate some colored text:
