@@ -5,6 +5,11 @@
 
 # 2004 The year of [Blue](#)
 
+# 2004 The year of [Green](#)
+
+# 2004 The year of [Red](#)
+
+
 You can use the diff language tag to generate some colored text:
 
 In the chart below, we can see ${textcolor('AMZN', d3.schemeTableau10[1])} overtaking ${textcolor('GOOG', d3.schemeTableau10[2])} between 2016 and 2018.
