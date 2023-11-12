@@ -2,6 +2,9 @@
 
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
+
+<span style="color:red;">your text here > </span>
+
   ```{=latex}
     \textcolor{red}{your text here}
 ```
