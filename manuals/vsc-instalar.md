@@ -3,9 +3,13 @@
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 
-<span style="color:green;font-weight:700;font-size:20px">
-    markdown color font styles
-</span>
+<style>
+red { color: red }
+yellow { color: yellow }
+</style>
+
+<red> red color markdown text</red>
+<yellow> red color markdown text</yellow>
 
 $\color{blue}{your-text-here}$
 <!-- <span style="color:blue">some *This is Blue italic.* text</span> -->
