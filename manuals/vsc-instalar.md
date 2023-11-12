@@ -6,10 +6,7 @@
 > ### Si ja teniu l'**IDE** ***```Visual Studio Code```*** instal·lat i <ins>*NO heu seguit els passos correctament*</ins>, us <span style="font-size: 20px; color: red;">**recomano encaridament**</span>, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
 > ## 
 
-<span style="size: 10px">Pas 1</span>: <span style="size: 20px">Descàrrega del programa a instal·lar.</span>
-
-
-## *Pas 1*: Descàrrega del programa a instal·lar.
+## *Pas 1*: <b>Descàrrega del programa a instal·lar</b>.
 
 Cal que visiteu la següent pàgina web [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
