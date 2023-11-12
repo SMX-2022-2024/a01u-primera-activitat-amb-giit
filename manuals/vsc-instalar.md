@@ -3,7 +3,7 @@
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 
-# Colored text #1
+# 2004 The year of [Blue](#)
 
 You can use the diff language tag to generate some colored text:
 
