@@ -3,11 +3,10 @@
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 
-#rgb[Text using 3 chars notation (red = f00)]
+#0f0[This is green text]
 
-#rrggbb[Text using 6 chars notation (red = ff0000)]
+#7fffff00[This is yellow text at 50% opacity]
 
-#aarrggbb[Text using 8 chars notation (red = ffff0000)]
 
 > ## NOTA: 
 > ### Si ja teniu l'**IDE** ***```Visual Studio Code```*** instal·lat i <ins>*NO heu seguit els passos correctament*</ins>, us <span style="font-size: 20px; color: red;">**recomano encaridament**</span>, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
