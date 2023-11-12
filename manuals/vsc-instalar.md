@@ -3,11 +3,9 @@
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 
-<span style="color:red;">your text here > </span>
-
-  ```{=latex}
-    \textcolor{red}{your text here}
-```
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
 
 $\color{blue}{your-text-here}$
 <!-- <span style="color:blue">some *This is Blue italic.* text</span> -->
