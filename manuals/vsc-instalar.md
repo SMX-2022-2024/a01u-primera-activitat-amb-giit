@@ -7,11 +7,8 @@
 
 You can use the diff language tag to generate some colored text:
 
-```diff - text in red```
+In the chart below, we can see ${textcolor('AMZN', d3.schemeTableau10[1])} overtaking ${textcolor('GOOG', d3.schemeTableau10[2])} between 2016 and 2018.
 
-However, it adds it as a new line starting with either - + ! # or starts and ends with @@
-
-enter image description here
 
 # Placeholders
 
