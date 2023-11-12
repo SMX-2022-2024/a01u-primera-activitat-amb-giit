@@ -76,4 +76,4 @@ Aquest és l'aspecte un cop instal·lat i executat per primera vegada.
 
 ![Alt text](../images/vsc-11-primera-execucio.png)
 
-Ja el tenim instal·lat i ja el tanquem, ho podem fer pressionant <kbd>Alt</kbd> + <kbd>F4</kbd>
+Ja el tenim instal·lat i el podem tancar pressionant <kbd>Alt</kbd> + <kbd>F4</kbd>
