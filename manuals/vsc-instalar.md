@@ -2,19 +2,6 @@
 
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
-
-# 2004 The year of [Blue](#)
-
-# 2004 The year of [Green](##)
-
-# 2004 The year of [Red](###)
-
-
-You can use the diff language tag to generate some colored text:
-
-In the chart below, we can see ${textcolor('AMZN', d3.schemeTableau10[1])} overtaking ${textcolor('GOOG', d3.schemeTableau10[2])} between 2016 and 2018.
-
-
 > ## NOTA: 
 > ### Si ja teniu l'**IDE** ***```Visual Studio Code```*** instal·lat i <ins>*NO heu seguit els passos correctament*</ins>, us <span style="font-size: 20px; color: red;">**recomano encaridament**</span>, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
 > ## 
