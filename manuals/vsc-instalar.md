@@ -2,11 +2,18 @@
 
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
+
+#rgb[Text using 3 chars notation (red = f00)]
+
+#rrggbb[Text using 6 chars notation (red = ff0000)]
+
+#aarrggbb[Text using 8 chars notation (red = ffff0000)]
+
 > ## NOTA: 
 > ### Si ja teniu l'**IDE** ***```Visual Studio Code```*** instal·lat i <ins>*NO heu seguit els passos correctament*</ins>, us <span style="font-size: 20px; color: red;">**recomano encaridament**</span>, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
 > ## 
 
-## ***Pas 1***: Descàrrega del programa a instal·lar.
+## *Pas 1*: Descàrrega del programa a instal·lar.
 
 Cal que visiteu la següent pàgina web [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
