@@ -10,22 +10,6 @@ You can use the diff language tag to generate some colored text:
 In the chart below, we can see ${textcolor('AMZN', d3.schemeTableau10[1])} overtaking ${textcolor('GOOG', d3.schemeTableau10[2])} between 2016 and 2018.
 
 
-# Placeholders
-
-It's worth mentioning that you can add some colour in a README using a placeholder image service. For example if you wanted to provide a list of colours for reference:
-
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-Produces:
-
-#f03c15 #f03c15
-#c5f015 #c5f015
-#1589F0 #1589F0
-
-Reference : [How to add color to Github's README.md file](https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file)
-
-
 > ## NOTA: 
 > ### Si ja teniu l'**IDE** ***```Visual Studio Code```*** instal·lat i <ins>*NO heu seguit els passos correctament*</ins>, us <span style="font-size: 20px; color: red;">**recomano encaridament**</span>, que el desinstal·leu i el torneu a instal·lar, però seguint els passos descrits en aquest manual.
 > ## 
