@@ -2,8 +2,8 @@
 
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
-
+<span style="color:red;">your text here in red</span>, 
+<span style="color:#520099;">or make it blue</span>
 
 $\color{blue}{your-text-here}$
 <!-- <span style="color:blue">some *This is Blue italic.* text</span> -->
