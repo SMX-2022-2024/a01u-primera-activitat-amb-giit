@@ -3,13 +3,7 @@
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
 
-<style>
-red { color: red }
-yellow { color: yellow }
-</style>
-
-<red> red color markdown text</red>
-<yellow> red color markdown text</yellow>
+A very <span style='color: red;'>long</span> sentence.
 
 $\color{blue}{your-text-here}$
 <!-- <span style="color:blue">some *This is Blue italic.* text</span> -->
