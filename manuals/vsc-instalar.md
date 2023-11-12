@@ -2,12 +2,8 @@
 
 [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
-This is a paragraph that for some reason we want blue.
-{: .blue}
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
-<span style="color:red">
-Text content
-</span>
 
 $\color{blue}{your-text-here}$
 <!-- <span style="color:blue">some *This is Blue italic.* text</span> -->
