@@ -1,6 +1,12 @@
 # Primera activitat amb ***```git```***
 
-> ## MP07 UF01 A01U - Activitat 1
+<td class="icon">
+    <div class="title">
+        <h3>
+            :information_source: MP07 UF01 <b>A01U - Activitat 1</b>
+        </h3>
+    </div>
+</td>
 
 <details><summary>Pitja per veure l'índex</summary>
 
